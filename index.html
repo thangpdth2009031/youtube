@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You Tobe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="col-2">
+    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/e/e8/Logo_Viettel.svg/640px-Logo_Viettel.svg.png" width="100px">
+</div>
+<article class="col-10">
+    <label>
+        Nhập từ khoá
+    </label>
+    <input type="text" name="keyword" class="long-input" placeholder="Search...">
+    <input type="button" name="btn-add" value="Tìm Kiếm">
+    <div class="title">
+        <div id="item-list"></div>
+    </div>
+</article>
+<div id="myModal" class="modal">
+    <span class="close" id="myClose">&times;</span>
+    <div class="Animation">
+        <iframe id="video-frame" width="560" height="315"
+                src="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+<script src="javascript.js">
+</script>
+</body>
+</html>
