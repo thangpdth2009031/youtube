@@ -7,16 +7,19 @@
 
 </head>
 <body>
-
-<div class="col-2">
-    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/e/e8/Logo_Viettel.svg/640px-Logo_Viettel.svg.png" width="100px">
+<div class="row">
+    <div class="col-2">
+        <img class="youtube" src="../lam-youtube/logo.jpg" alt="">
+    </div>
+    <div class="col-10 search-form">
+        <form action="#" name="search-form">
+            <label>Nhập từ khoá</label>
+            <input type="text" name="keyword" placeholder="Từ khoá...">
+            <input type="button" name="btn-add" value="Tìm Kiếm">
+        </form>
+    </div>
 </div>
-<article class="col-10">
-    <label>
-        Nhập từ khoá
-    </label>
-    <input type="text" name="keyword" class="long-input" placeholder="Search...">
-    <input type="button" name="btn-add" value="Tìm Kiếm">
+<article>
     <div class="title">
         <div id="item-list"></div>
     </div>
@@ -31,8 +34,6 @@
         </iframe>
     </div>
 </div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-
 <script src="javascript.js">
 </script>
 </body>
